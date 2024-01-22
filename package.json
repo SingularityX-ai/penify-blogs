@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "build": "vitepress build",
     "docs:dev": "vitepress dev --port 3000",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
