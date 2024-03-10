@@ -33,8 +33,8 @@ export default defineConfig({
         text: "What is Snorkell.ai?",
         link: "/docs/what-is-snorkell-ai",
         items: [
-          { text: "🛠 Install Snorkell.ai", link: "/docs/what-is-snorkell-ai#🛠%EF%B8%8F-how-to-install-snorkell-ai-on-github" },
-          { text: "🎥 Demo", link: "/docs/what-is-snorkell-ai#🎥-demo-github" },
+          { text: "🛠 Install Snorkell on Github", link: "/docs/what-is-snorkell-ai#🛠%EF%B8%8F-how-to-install-snorkell-ai-on-github" },
+          { text: "🛠 Install Snorkell on AzureDevops", link: "/docs/install-snorkell-on-AzureDevops" },
         ],
       }
     ],
