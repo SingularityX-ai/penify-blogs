@@ -88,6 +88,11 @@ Installing Snorkell.ai on your AzureDevops repository or organization is a strai
 
 3. **Create Pipeline in AzureDevops**
    - You can follow this video on how to create Snorkell and Azure Devops integration.
+   - Contains information on
+     - Pipeline Creation via YAML file
+     - PAT Token Generation
+     - SNORKELL API Key generation
+     - How to set the variables in the Pipeline
   
     [![Snorkell Azure Devops Installation](https://i.imgur.com/NFsm5RV.png)](https://www.youtube.com/watch?v=iyN4GUW60ag)
 
