@@ -8,9 +8,9 @@ Installing Snorkell.ai on your AzureDevops repository or organization is a strai
 
 ## 📋 Pre-requisites
 
-- A AzureDevops account.
-- PAT Token
-- Repository in which you want to Install
+- An `AzureDevops` account.
+- A `PAT` Token
+- A `Repository` in which you want to install
 
 ### 🧭 Step-by-Step Installation Guide
 
@@ -18,16 +18,16 @@ Installing Snorkell.ai on your AzureDevops repository or organization is a strai
    - Open your web browser and navigate to your repository[AzureDevOps](https://dev.azure.com/).
    - In my case I will be opening this repository [xeno-rat](https://dev.azure.com/Snorkell-ai/_git/xeno-rat).
 
-2. **Create a YAML File**
+2. **Create a YAML File in your Repository**
    - Create a folder `.pipelines`
    - Create a file `snorkell-auto-doc.yaml`
    - Add the following contents in the file.
-     - Modify the `trigger` and `BRANCH_NAME` as desired.
-     - Modify the `pool` as desired. I have created a blog on "How to create your own personal AzDevops Pool?"
+     - NOTE: Modify the `trigger` and `BRANCH_NAME` as desired.
+     - NOTE: Modify the `pool` as desired.
   
     ```yml
     trigger:
-    - master #It could be "master", "main" or any branch on which you want to run this pipeline.
+    - master # It could be "master", "main" or any branch on which you want to run this pipeline.
     
     pr: none
     
@@ -86,7 +86,7 @@ Installing Snorkell.ai on your AzureDevops repository or organization is a strai
         PROJECT_NAME: $(PROJECT_NAME)
     ```
 
-3. **Create Pipeline in AzureDevops**
+3. **Create Pipeline for your Repository**
    - You can follow this video on how to create Snorkell and Azure Devops integration.
    - Contains information on
      - Pipeline Creation via YAML file
@@ -96,12 +96,12 @@ Installing Snorkell.ai on your AzureDevops repository or organization is a strai
   
     [![Snorkell Azure Devops Installation](https://i.imgur.com/NFsm5RV.png)](https://www.youtube.com/watch?v=iyN4GUW60ag)
 
-4. **See Snorkell in Action on Code Changes**
+4. **See Snorkell in Action: When Repository contents are modified**
    - Check the below video to watch Snorkell AI Documentation Generation in Action on Code Changes
 
    [![Snorkell Azure Devops AI Documentation Generation](https://i.imgur.com/yGwBvSP.png)](https://www.youtube.com/watch?v=3ufN2ooeKT4)
 
-5. **Snorkell in Action to Generation Documentation of entire Repository**
+5. **Snorkell in Action: Generate Documentation of entire Repository**
    - Once you finish Step 4, Snorkell will automatically get configured for your Repository.
    - You will see the Repository information in [Snorkell Dashboard](https://dashboard.snorkell.ai/documentation-generator-dashboard).
    - To generate Documentation for your entire Repository.
