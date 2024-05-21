@@ -3,17 +3,17 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: "en-US",
-  title: "Snorkell.ai",
+  title: "Penify",
   titleTemplate: ":title",
-  description: "Effortlessly generate precise, human like docstrings for GitHub repos with Snorkell.ai.",
+  description: "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
-    ['meta', { name: 'Snorkell.ai', content: 'Automated Docstring Generation' }],
-    ['meta', { name: 'keywords', content: 'Snorkell, docstring, automated docstring, python docstring, LLMs, Generative AI, AI documentation, AI docstring' }],
-    ['meta', { property: 'og:title', content: 'Snorkell.ai' }],
-    ['meta', { property: 'og:description', content: 'Effortlessly generate precise, human like docstrings for GitHub repos with Snorkell.ai.' }],
+    ['meta', { name: 'Penify', content: 'Automated Docstring Generation' }],
+    ['meta', { name: 'keywords', content: 'Penify, docstring, automated docstring, python docstring, LLMs, Generative AI, AI documentation, AI docstring' }],
+    ['meta', { property: 'og:title', content: 'Penify' }],
+    ['meta', { property: 'og:description', content: 'Effortlessly generate precise, human like docstrings for GitHub repos with Penify.' }],
     ['meta', { property: 'og:image', content: '../public/banner.png' }],
-    ['meta', { property: 'og:url', content: 'https://www.snorkell.ai' }],
+    ['meta', { property: 'og:url', content: 'https://www.penify.dev' }],
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -21,7 +21,7 @@ export default defineConfig({
 
     nav: [
       { text: "Home", link: "/" },
-      { text: "Email", link: "mailto:sumansaurabh@snorkell.ai", rel: "noopener noreferrer" },
+      { text: "Email", link: "mailto:sumansaurabh@penify.dev", rel: "noopener noreferrer" },
     ],
 
     search: {
@@ -30,11 +30,11 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "What is Snorkell.ai?",
-        link: "/docs/what-is-snorkell-ai",
+        text: "What is Penify?",
+        link: "/docs/what-is-penify",
         items: [
-          { text: "🛠 Install Snorkell on Github", link: "/docs/what-is-snorkell-ai#🛠%EF%B8%8F-how-to-install-snorkell-ai-on-github" },
-          { text: "🛠 Install Snorkell on AzureDevops", link: "/docs/install-snorkell-on-AzureDevops" },
+          { text: "🛠 Install Penify on Github", link: "/docs/what-is-penify-ai#🛠%EF%B8%8F-how-to-install-penify-ai-on-github" },
+          { text: "🛠 Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
         ],
       }
     ],
@@ -48,12 +48,12 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: "Copyright &copy; 2023 Snorkell.ai",
+      copyright: "Copyright &copy; 2023 Penify",
     },
   },
   appearance: "force-dark",
   sitemap: {
-    hostname: 'https://docs.snorkell.ai',
+    hostname: 'https://docs.penify.ai',
     lastmodDateOnly: false
   }
 });

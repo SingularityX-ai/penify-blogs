@@ -3,20 +3,20 @@
 layout: home
 
 hero:
-  name: "Snorkell.ai"
-  tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Snorkell.ai
+  name: "Penify"
+  tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify
   actions:
     - theme: brand
       text: Get Started
-      link: /docs/what-is-snorkell-ai.md
+      link: /docs/what-is-penify-ai.md
     - theme: alt
       text: View on GitHub
       link: https://github.com/SingularityX-ai/
 
 features:
   - title: Automatic Documentation Generation
-    details: Snorkell.ai is an intelligent GitHub App designed to automate the process of generating and updating documentation for GitHub projects.
-    link: /docs/what-is-snorkell-ai.md
+    details: Penify is an intelligent GitHub App designed to automate the process of generating and updating documentation for GitHub projects.
+    link: /docs/what-is-penify-ai.md
   # - title: Feature B
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   # - title: Feature C

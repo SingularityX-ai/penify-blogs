@@ -1,6 +1,6 @@
-# Snorkell Documentation Site
+# Penify Documentation Site
 
-Welcome to the Snorkell Documentation Site, powered by VitePress. This guide will help you on how to get started with vitepress, a vue powered static site generator.
+Welcome to the Penify Documentation Site, powered by VitePress. This guide will help you on how to get started with vitepress, a vue powered static site generator.
 
 ## Prerequisites
 
@@ -15,9 +15,9 @@ Welcome to the Snorkell Documentation Site, powered by VitePress. This guide wil
 1. Clone the repository:
 
 ```bash
-$ git clone https://github.com/SingularityX-ai/Snorkell-usage-doc-site
+$ git clone https://github.com/SingularityX-ai/Penify-usage-doc-site
 
-$ cd Snorkell-usage-doc-site
+$ cd Penify-usage-doc-site
 ```
 
 <br>
