@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Get Started
-      link: /docs/what-is-penify-ai.md
+      link: /docs/what-is-penify.md
     - theme: alt
       text: View on GitHub
       link: https://github.com/SingularityX-ai/
@@ -16,7 +16,7 @@ hero:
 features:
   - title: Automatic Documentation Generation
     details: Penify is an intelligent GitHub App designed to automate the process of generating and updating documentation for GitHub projects.
-    link: /docs/what-is-penify-ai.md
+    link: /docs/what-is-penify.md
   # - title: Feature B
   #   details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
   # - title: Feature C
