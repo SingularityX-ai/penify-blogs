@@ -48,7 +48,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: "Copyright &copy; 2023 Penify",
+      copyright: "Copyright &copy; 2023 Snorkell Associates and Co",
     },
   },
   appearance: "force-dark",
