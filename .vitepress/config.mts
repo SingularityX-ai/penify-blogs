@@ -33,7 +33,7 @@ export default defineConfig({
         text: "What is Penify?",
         link: "/docs/what-is-penify",
         items: [
-          { text: "🛠 Install Penify on Github", link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-ai-on-github" },
+          { text: "🛠 Install Penify on Github", link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github" },
           { text: "🛠 Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
         ],
       }
