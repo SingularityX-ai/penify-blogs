@@ -27,7 +27,7 @@ Installing Penify on your GitHub repository or organization is a straightforward
    - Sign in to your GitHub account. 🔑
 
 2. **Access the Penify GitHub App Page**
-   - Go to the Penify app page [Github App](https://github.com/apps/penify-ai).
+   - Go to the Penify app page [Github App](https://github.com/apps/penify-dev).
    - It can also be found through the GitHub Marketplace or by visiting the Penify website and selecting the option to install.
 
 3. **Initiate Installation**
