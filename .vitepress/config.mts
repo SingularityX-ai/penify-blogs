@@ -41,10 +41,10 @@ export default defineConfig({
 
     socialLinks: [
       { icon: "github", link: "https://github.com/SingularityX-ai/", ariaLabel: "GitHub URL"},
-      { icon: "linkedin", link: "https://www.linkedin.com/company/snorkell-ai/", ariaLabel: "LinkedIn URL" },
-      { icon: "youtube", link: "https://www.youtube.com/@Snorkell-ai-ck6sg", ariaLabel: "YouTube URL" },
+      { icon: "linkedin", link: "https://www.linkedin.com/company/penify-dev/", ariaLabel: "LinkedIn URL" },
+      { icon: "youtube", link: "https://www.youtube.com/@penify-dev", ariaLabel: "YouTube URL" },
       { icon: "twitter", link: "https://twitter.com/Snorkell_ai", ariaLabel: "Twitter URL" },
-      { icon: "instagram", link: "https://www.instagram.com/snorkell.ai/", ariaLabel: "Twitter URL" },
+      { icon: "instagram", link: "https://www.instagram.com/penify.dev/", ariaLabel: "Twitter URL" },
     ],
 
     footer: {
