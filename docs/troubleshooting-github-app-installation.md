@@ -2,15 +2,15 @@
 layout: doc
 ---
 
-# Troubleshooting Guide for Penify GitHub App Installation
+# 🚀 Troubleshooting Guide for Penify GitHub App Installation
 
 ## Introduction
 
 This guide aims to help you troubleshoot common issues you may encounter when installing and configuring the Penify GitHub App. We'll cover topics related to GitHub workflows and GitHub secrets, providing step-by-step solutions to ensure a smooth installation and usage experience.
 
-## GitHub Workflow Issues
+## ⚙️ GitHub Workflow Issues
 
-### Problem: Workflow File Not Committed
+### 🛠️ Problem: Workflow File Not Committed
 
 **Symptoms:**
 
@@ -19,12 +19,12 @@ This guide aims to help you troubleshoot common issues you may encounter when in
 
 **Solutions:**
 
-1. **Check Pull Request:**
+1. **✅ Check Pull Request:**
    - Ensure that the Penify app installation process has completed successfully. It will create a Pull Request with the name - `[Penify]: Setting up Automated AI-Driven Documentation for GitHub!`
    - If the PR is open, please merge the Pull Request to add the workflow file to your repository.
-2. **Manual Workflow File Check:**
+2. **🔍 Manual Workflow File Check:**
    - Verify if the workflow file `snorkell-auto-documentation.yml` exists in the `.github/workflows` directory of your repository.
-3. **Check the Content of the Workflow File:**
+3. **📝 Check the Content of the Workflow File:**
    - Ensure the content of the workflow file is correct. It should include the necessary configurations for the Snorkell documentation generation process.
    - Verify that placeholders such as `:::BRANCH_NAME:::` are replaced with the appropriate base branch name. The content should resemble the following template:
 
@@ -50,12 +50,12 @@ This guide aims to help you troubleshoot common issues you may encounter when in
 
    - If the above file is not present, please create a file `.github/workflows/snorkell-auto-documentation.yml` and add the above content.
 
-4. **Repository Permissions:**
+4. **🔐 Repository Permissions:**
    - Ensure that the Penify app has the necessary permissions to write to the repository. Check the repository settings under `Settings > Integrations > Installed GitHub Apps`.
 
 -------
 
-### Problem: Workflow Not Triggering
+### 🚀 Problem: Workflow Not Triggering
 
 **Symptoms:**
 
@@ -64,16 +64,16 @@ This guide aims to help you troubleshoot common issues you may encounter when in
 
 **Solutions:**
 
-1. **Workflow Activation:**
+1. **⚙️ Workflow Activation:**
    - Ensure that the workflow is enabled in the `Actions` tab of your GitHub repository.
    - Url format would be - https://github.com/{org_name}/{repo_name}/actions/
 
-2. **Repository Settings:**
+2. **🔧 Repository Settings:**
    - Ensure that GitHub Actions are enabled for your repository. Check the Github Actions are getting triggered or not  
 
-## GitHub Secrets Issues
+## 🔐 GitHub Secrets Issues
 
-### Problem: Secrets Not Set
+### 🛠️ Problem: Secrets Not Set
 
 **Symptoms:**
 
@@ -82,10 +82,10 @@ This guide aims to help you troubleshoot common issues you may encounter when in
 
 **Solutions:**
 
-1. **Manual Secret Addition:**
+1. **🔑 Manual Secret Addition:**
    - Manually add the secrets to your repository settings. Navigate to `Settings > Secrets and variables > Actions` and add `SNORKELL_API_KEY` and `SNORKELL_CLIENT_ID` with the appropriate values.
-2. **Secrets keys are not present or incorrect:**
-   - If the secret `SNORKELL_API_KEY` is nor present, go to [Penify API Keys](https://dashboard.penify.dev/penify-api-keys) generate a secret key and add the value in the content section.
+2. **🔍 Secrets keys are not present or incorrect:**
+   - If the secret `SNORKELL_API_KEY` is not present, go to [Penify API Keys](https://dashboard.penify.dev/penify-api-keys) generate a secret key and add the value in the content section.
    - If the secret `SNORKELL_CLIENT_ID` is not present. 
      - Go to `https://dashboard.penify.dev/documentation-generator-dashboard`
      - Select your repository
@@ -93,7 +93,7 @@ This guide aims to help you troubleshoot common issues you may encounter when in
      - `client_id` is your `SNORKELL_CLIENT_ID`
      - Don't worry this `SNORKELL_CLIENT_ID` is not actually a secret and can easily be shared.
 
-### Contact Support
+### 📞 Contact Support
 
 If the above solutions do not resolve your issues, contact Penify support with detailed information about the problem. Include logs, error messages, and steps you have already taken.
 
