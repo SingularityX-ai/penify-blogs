@@ -56,6 +56,9 @@ Installing Penify on your GitHub repository or organization is a straightforward
 8. **Start Using Penify**
    - Once installed, Penify will automatically start tracking pull requests and generate or update documentation accordingly. 📚
 
+9. **Troubleshooting Github App Installation**
+    - There could be multiple reason due to which the Github APP is not installed. Please go through this link if your Code Documentation is not getting generated. 
+
 ### 🎥 Demo - Github
 
 [![Video Name](https://img.youtube.com/vi/rXMW1xAA-RU/maxresdefault.jpg)](https://www.youtube.com/watch?v=rXMW1xAA-RU)

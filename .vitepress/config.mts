@@ -14,6 +14,7 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: 'Effortlessly generate precise, human like docstrings for GitHub repos with Penify.' }],
     ['meta', { property: 'og:image', content: '../public/banner.png' }],
     ['meta', { property: 'og:url', content: 'https://www.penify.dev' }],
+    ['script', { type: 'text/javascript', id: 'hs-script-loader', src: '//js-na1.hs-scripts.com/44651459.js' }]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
@@ -35,6 +36,7 @@ export default defineConfig({
         items: [
           { text: "🛠 Install Penify on Github", link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github" },
           { text: "🛠 Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
+          { text: "🛠 Troubleshoot Github Installation", link: "/docs/troubleshooting-github-app-installation" },
         ],
       }
     ],
