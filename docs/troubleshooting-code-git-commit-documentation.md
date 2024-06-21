@@ -2,14 +2,17 @@
 layout: doc
 ---
 
-# 🚀 Troubleshooting Guide for Penify GitHub App Installation
+# 🚀 Troubleshooting Guide for Penify Code Git Commit Documentation
 
 ## Introduction
 
-This guide aims to help you troubleshoot common issues you may encounter when installing and configuring the Penify GitHub App. We'll cover topics related to GitHub workflows and GitHub secrets, providing step-by-step solutions to ensure a smooth installation and usage experience.
+Whenever a Pull Request is merged to main/master branch. Penify will generate a new PR containing updated documentation.
+This guide aims to help you troubleshoot common issues you may encounter when installing and configuring the Penify GitHub App for Git Commit Documentation.
+
+We'll cover topics related to GitHub workflows and GitHub secrets, providing step-by-step solutions to ensure a smooth installation and usage experience.
 
 
-## 🧩 GitHub App Installation Issues
+## 🧩 GitHub App Installation Issues - [Video](https://youtu.be/CEUUbD9yYqI)
 
 ### 🚨 Problem: App is not correctly installed
 
