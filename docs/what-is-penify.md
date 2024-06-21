@@ -33,13 +33,13 @@ Installing Penify on your GitHub repository or organization is a straightforward
 3. **Initiate Installation**
    - Click on the green ‘Install’ 🟢. This will redirect you to a page where you can choose where to install Penify.
   
-    ![Snorkel AI Installation](../public/images/github-app-install.png)
+    ![Penify Installation](../public/images/github-app-install.png)
 
 4. **Select Installation Target** 🏢
    - Choose whether to install Penify for your personal account or for an organization.  
    - If you manage multiple organizations or repositories, select the ones where you wish to install Penify.
 
-    ![Snorkel AI Installation](../public/images/install-authorize.png)
+    ![Penify Installation](../public/images/install-authorize.png)
 
 5. **Configure Permissions**
    - Review the permissions requested by Penify. These permissions are necessary for the app to access your code and generate documentation. 🔒

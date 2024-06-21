@@ -8,13 +8,29 @@ layout: doc
 
 This guide aims to help you troubleshoot common issues you may encounter when installing and configuring the Penify GitHub App. We'll cover topics related to GitHub workflows and GitHub secrets, providing step-by-step solutions to ensure a smooth installation and usage experience.
 
+
+## 🧩 GitHub App Installation Issues
+
+### 🚨 Problem: App is not correctly installed
+
+**Symptoms:**
+
+- Check if your repository is appearing in the [Penify Dashboard](https://dashboard.penify.dev/documentation-generator-dashboard).
+
+  ![Penify Installation Dashboard Image](../public/images/penify-installation-dashboard.png)
+- Check if the `Penify.dev` app is appearing on your repository's App Installation Page.
+
+  ![Penify Installation Repo Image](../public/images/penify-install-github.png)
+
+- If either of them is missing, you need to install the [Penify App](https://github.com/apps/penify-dev) again.
+
 ## ⚙️ GitHub Workflow Issues
 
 ### 🛠️ Problem: Workflow File Not Committed
 
 **Symptoms:**
 
-- The workflow file `auto-documentation.yml` is not appearing in the `.github/workflows` directory.
+- The workflow file `snorkell-auto-documentation.yml` is not appearing in the `.github/workflows` directory.
 - No pull request is created for the workflow file.
 
 **Solutions:**
@@ -86,8 +102,8 @@ This guide aims to help you troubleshoot common issues you may encounter when in
    - Manually add the secrets to your repository settings. Navigate to `Settings > Secrets and variables > Actions` and add `SNORKELL_API_KEY` and `SNORKELL_CLIENT_ID` with the appropriate values.
 2. **🔍 Secrets keys are not present or incorrect:**
    - If the secret `SNORKELL_API_KEY` is not present, go to [Penify API Keys](https://dashboard.penify.dev/penify-api-keys) generate a secret key and add the value in the content section.
-   - If the secret `SNORKELL_CLIENT_ID` is not present. 
-     - Go to `https://dashboard.penify.dev/documentation-generator-dashboard`
+   - If the secret `SNORKELL_CLIENT_ID` is not present.
+     - Go to [Penify Dashboard](https://dashboard.penify.dev/documentation-generator-dashboard)
      - Select your repository
      - Check the url - `https://dashboard.penify.dev/documentation-generator-dashboard/{org_name}/{repo_name}?id={client_id}`
      - `client_id` is your `SNORKELL_CLIENT_ID`
