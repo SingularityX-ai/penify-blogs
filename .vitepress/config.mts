@@ -38,6 +38,7 @@ export default defineConfig({
             { text: "🛠 Troubleshoot Code Git Commit Documentation", link: "/docs/troubleshooting-code-git-commit-documentation" },
           ] },
           { text: "🛠 Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
+          { text: "🛠 Create API Token", link: "/docs/Creating-API-Keys-in-Penify" },
         ],
       }
     ],
@@ -48,6 +49,7 @@ export default defineConfig({
       { icon: "youtube", link: "https://www.youtube.com/@penify-dev", ariaLabel: "YouTube URL" },
       { icon: "twitter", link: "https://twitter.com/Snorkell_ai", ariaLabel: "Twitter URL" },
       { icon: "instagram", link: "https://www.instagram.com/penify.dev/", ariaLabel: "Twitter URL" },
+      { icon: "discord", link: "https://discord.gg/wqrc8JeV", ariaLabel: "Discord URL" },
     ],
 
     footer: {
