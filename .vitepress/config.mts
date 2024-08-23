@@ -34,11 +34,11 @@ export default defineConfig({
         text: "What is Penify?",
         link: "/docs/what-is-penify",
         items: [
-          { text: "🛠 Install Penify on Github", link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github", items: [
+          { text: "Install Penify on Github", link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github", items: [
             { text: "🛠 Troubleshoot Code Git Commit Documentation", link: "/docs/troubleshooting-code-git-commit-documentation" },
           ] },
-          { text: "🛠 Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
-          { text: "🛠 Create API Token", link: "/docs/Creating-API-Keys-in-Penify" },
+          { text: "Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
+          { text: "Create API Token", link: "/docs/Creating-API-Keys-in-Penify" },
         ],
       }
     ],
@@ -56,7 +56,7 @@ export default defineConfig({
       copyright: "Copyright &copy; 2023 Snorkell Associates and Co",
     },
   },
-  appearance: "force-dark",
+  appearance: true, // Enable theme switching
   sitemap: {
     hostname: 'https://docs.penify.ai',
     lastmodDateOnly: false
