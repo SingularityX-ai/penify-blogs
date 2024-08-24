@@ -39,6 +39,8 @@ export default defineConfig({
           ] },
           { text: "Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
           { text: "Create API Token", link: "/docs/Creating-API-Keys-in-Penify" },
+          { text: "Penify Hook Tutorial", link: "/docs/penify-cli" },
+          
         ],
       }
     ],
