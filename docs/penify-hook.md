@@ -13,8 +13,6 @@ Penify-Hook is a powerful tool designed to automate the generation of inline cod
 1. Tracking Git Changes and generate Code Documentation for the same
 2. Generate Documentation for one file
 3. Generate Documentation for all the files in a folder
-4. 
-
 
 
 ## 1. Installing Penify-Hook
