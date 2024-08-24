@@ -48,7 +48,7 @@ Penify-CLI offers multiple ways to generate documentation, catering to different
 ### 1. For a Single File
 
 ```bash
-penify-cli doc-gen -fl /path/to/your/file.py
+penify-cli doc-gen -fl /path/to/your/file.type
 ```
 
 ![Penify cli docs](../public/images/penify-cli-file-doc-gen.gif)
@@ -59,7 +59,7 @@ penify-cli doc-gen -fl /path/to/your/file.py
 penify-cli doc-gen -cf /path/to/your/folder
 ```
 
-[Image: Screenshot of command output for folder documentation]
+![Penify cli docs folder](../public/images/penify-cli-dir-doc-gen.gif)
 
 ### 3. For Recent Git Changes
 
@@ -67,7 +67,7 @@ penify-cli doc-gen -cf /path/to/your/folder
 penify-cli doc-gen -gf /path/to/your/git/repo
 ```
 
-[Image: Screenshot of command output for Git changes documentation]
+![Penify cli git docs folder](../public/images/penify-cli-git-doc-gen.gif)
 
 ## The Magic Behind Penify-CLI
 
@@ -106,4 +106,4 @@ Penify-CLI is more than just a tool - it's a paradigm shift in how we approach c
 
 Give Penify-CLI a try and experience the difference it can make in your development workflow. Your future self (and your team) will thank you!
 
-[Image: A developer looking relaxed and satisfied, with well-documented code on their screen]
+![Relaxed Dev](../public/images/relaxed-developer.jpg)
