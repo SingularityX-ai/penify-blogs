@@ -31,6 +31,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "📝 Simplify Git Commits with Penify-CLI's Summary Generator",
+        link: "/docs/commit-summary-with-cli.md",
+      },
+      {
         text: "📝 Automate Code Documentation with Penify-CLI",
         link: "/docs/code-documentation-with-cli.md",
       },

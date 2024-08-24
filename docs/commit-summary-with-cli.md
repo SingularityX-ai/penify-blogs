@@ -42,20 +42,20 @@ This command will:
 - Create a commit message
 - Make the commit
 
-[Image: Screenshot of the command output, showing a generated commit summary]
+![Penify commit docs](../public/images/commt-summary-1.gif)
 
 ## Customizing Your Commit
 
 Want to add your own message? Use the `-m` flag:
 
 ```bash
-penify-cli commit -gf /path/to/your/repo -t your_api_token -m "Add login feature"
+penify-cli commit -m "Focus on login feature"
 ```
 
 Need to edit the message? Use the `-e` flag:
 
 ```bash
-penify-cli commit -gf /path/to/your/repo -t your_api_token -e True
+penify-cli commit -e True
 ```
 
 This opens your text editor so you can make changes.
