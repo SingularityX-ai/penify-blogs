@@ -31,17 +31,16 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "What is Penify?",
-        link: "/docs/what-is-penify",
-        items: [
-          { text: "Install Penify on Github", link: "/docs/what-is-penify#🛠%EF%B8%8F-how-to-install-penify-on-github", items: [
-            { text: "🛠 Troubleshoot Code Git Commit Documentation", link: "/docs/troubleshooting-code-git-commit-documentation" },
-          ] },
-          { text: "Install Penify on AzureDevops", link: "/docs/install-penify-on-AzureDevops" },
-          { text: "Create API Token", link: "/docs/Creating-API-Keys-in-Penify" },
-          { text: "Penify Hook Tutorial", link: "/docs/penify-cli" },
-          
-        ],
+        text: "📝 Automate Code Documentation with Penify-CLI",
+        link: "/docs/code-documentation-with-cli.md",
+      },
+      {
+        text: "📝 Four Common Docstring format in Python",
+        link: "/docs/common-docstring-format-in-python.md",
+      },
+      {
+        text: "📝 Penify Genesis",
+        link: "/docs/penify-genesis",
       }
     ],
 
