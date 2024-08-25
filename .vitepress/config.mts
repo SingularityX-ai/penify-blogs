@@ -70,7 +70,7 @@ export default defineConfig({
   },
   appearance: true, // Enable theme switching
   sitemap: {
-    hostname: 'https://docs.penify.ai',
+    hostname: 'https://blogs.penify.dev',
     lastmodDateOnly: false
   }
 });
