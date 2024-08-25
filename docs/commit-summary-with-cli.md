@@ -2,7 +2,7 @@
 layout: doc
 ---
 
-# Simplify Git Commits with Penify-CLI's Summary Generator
+# Simplify Git Commits with Penify-CLI's Commit Summary Generator
 
 Good commit messages are crucial for any project. They help you and your team understand why changes were made. But writing clear, informative messages can be time-consuming. That's where Penify-CLI comes in.
 
