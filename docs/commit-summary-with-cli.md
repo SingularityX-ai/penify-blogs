@@ -69,7 +69,7 @@ This opens your text editor so you can make changes.
 3. **Don't Miss Details**: The AI catches things you might forget.
 4. **Learn**: Improve your own commit writing skills.
 
-[Image: A simple chart showing time saved using Penify-CLI]
+![Penify commit docs](../public/images/similing-git-dev.webp)
 
 ## Tips for Using Penify-CLI
 
