@@ -6,7 +6,7 @@ layout: doc
 
 Good commit messages are crucial for any project. They help you and your team understand why changes were made. But writing clear, informative messages can be time-consuming. That's where Penify-CLI comes in.
 
-[Image: Before/after comparison of a Git log, showing basic vs. detailed commit messages]
+![Penify commits](../public/images/commit-details-msg.png)
 
 ## What is Penify-CLI commit summary?
 
