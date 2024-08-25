@@ -42,15 +42,15 @@ export default defineConfig({
         link: "/docs/commit-summary-with-cli.md",
       },
       {
-        text: "📝 Automate Code Documentation with Penify-CLI",
+        text: "📄 Automate Code Documentation with Penify-CLI",
         link: "/docs/code-documentation-with-cli.md",
       },
       {
-        text: "📝 Four Common Docstring format in Python",
+        text: "🛠️ Four Common Docstring format in Python",
         link: "/docs/common-docstring-format-in-python.md",
       },
       {
-        text: "📝 Penify Genesis",
+        text: "🚀 Penify Genesis",
         link: "/docs/penify-genesis",
       }
     ],
