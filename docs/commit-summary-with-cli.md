@@ -124,6 +124,10 @@ This command will:
 2. Use your own message (with `-m`) to add extra context.
 3. Make it part of your regular Git workflow.
 
+## Are there any other tools?
+
+Github Co-pilot has such feature but it’s quite buggy and doesn’t generate “semantic commit messages”
+   
 ## Conclusion
 
 Penify-CLI makes writing good commit messages easy. It saves you time and helps keep your project history clear. Give it a try on your next commit!

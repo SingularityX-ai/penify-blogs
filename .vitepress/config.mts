@@ -46,6 +46,10 @@ export default defineConfig({
         link: "/docs/code-documentation-with-cli.md",
       },
       {
+        text: "📝 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
+        link: "/docs/semantic-commit-messages.md",
+      },
+      {
         text: "🛠️ Four Common Docstring format in Python",
         link: "/docs/common-docstring-format-in-python.md",
       },

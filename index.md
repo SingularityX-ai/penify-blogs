@@ -12,6 +12,9 @@ features:
   - title: 📄 Automate Code Documentation with Penify-CLI
     details: Generate Code Documentation with Simple Penify-CLI.
     link: /docs/code-documentation-with-cli.md
+  - title: 📝 Semantic Commit Messages
+    details: Elevating Your Code Quality and Collaboration
+    link: /docs/semantic-commit-messages.md
   - title: 🛠️ Four Common Docstring Formats in Python
     details: Standard Python Docstring according to PEP-8 style guide, including Google, Epytext, rEST, Numpy.
     link: /docs/common-docstring-format-in-python.md
