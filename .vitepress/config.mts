@@ -25,10 +25,14 @@ export default defineConfig({
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
-    logo: "/favicon.ico",
+    logo: {
+      src: "/favicon.ico",
+      link: "https://www.penify.dev"
+    },
 
     nav: [
-      { text: "Home", link: "/" },
+      { text: "Home", link: "https://www.penify.dev" },
+      { text: "Main", link: "/" },
       { text: "Email", link: "mailto:sumansaurabh@penify.dev", rel: "noopener noreferrer" },
     ],
 
