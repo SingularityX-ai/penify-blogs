@@ -60,7 +60,7 @@ penify-cli commit -e True
 
 This opens your text editor so you can make changes.
 
-![Penify commit docs](../public/images/commt-summary-2.gif)
+![Penify commit docs](../public/images/commit-summary-2.gif)
 
 ## Why Use Penify-CLI?
 
