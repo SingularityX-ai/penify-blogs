@@ -72,7 +72,6 @@ This command will:
 3. **Don't Miss Details**: The AI catches things you might forget.
 4. **Learn**: Improve your own commit writing skills.
 
-![Penify commit docs](../public/images/similing-git-dev.webp)
 
 ## Tips for Using Penify-CLI
 
@@ -84,4 +83,4 @@ This command will:
 
 Penify-CLI makes writing good commit messages easy. It saves you time and helps keep your project history clear. Give it a try on your next commit!
 
-[Image: A developer smiling at their computer, with a clean Git log visible]
+![Penify commit docs](../public/images/similing-git-dev.webp)
