@@ -46,21 +46,24 @@ This command will:
 
 ## Customizing Your Commit
 
-Want to add your own message? Use the `-m` flag:
+1. Want to provide additional context to LLMs? Use the `-m` flag:
 
-```bash
-penify-cli commit -m "Focus on login feature"
-```
+    ```bash
+    penify-cli commit -m "Focus on login feature"
+    ```
+    
+    While generating commit summary it will prioritizes your commit message
+    
 
-Need to edit the message? Use the `-e` flag:
+2. Need to edit the message? Use the `-e` flag:
 
-```bash
-penify-cli commit -e True
-```
-
-This opens your text editor so you can make changes.
-
-![Penify commit docs](../public/images/commit-summary-2.gif)
+    ```bash
+    penify-cli commit -e True
+    ```
+    
+    This opens your text editor so you can make changes.
+    
+    ![Penify commit docs](../public/images/commit-summary-2.gif)
 
 ## Why Use Penify-CLI?
 
