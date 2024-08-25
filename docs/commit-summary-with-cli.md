@@ -12,7 +12,6 @@ Good commit messages are crucial for any project. They help you and your team un
 
 Penify-CLI is a tool that automatically generates meaningful commit messages. It looks at your code changes and creates a summary that explains what you did and why.
 
-
 ### Install
 
 First things first, let's get Penify-CLI installed:
@@ -33,11 +32,26 @@ export PENIFY_API_TOKEN=skl_ai_******
 
 ### Generate a commit summary
 
+  1. Go to your repository
+
 ```bash
-penify-cli commit
+cd path/to/your/repo
 ```
 
+  2. Make some changes and stage your changes
+
+```bash
+git add /all/your/files
+```
+
+  3. Only after you perform `git add`, Penify can pick your changes to automatically generate AI summary.
+
+  ```bash
+  penify-cli commit
+  ```
+
 This command will:
+
 - Look at your code changes
 - Create a commit message
 - Make the commit
@@ -51,18 +65,17 @@ This command will:
     ```bash
     penify-cli commit -m "Focus on login feature"
     ```
-    
+
     While generating commit summary it will prioritizes your commit message
-    
 
 2. Need to edit the message? Use the `-e` flag:
 
     ```bash
     penify-cli commit -e True
     ```
-    
+
     This opens your text editor so you can make changes.
-    
+
     ![Penify commit docs](../public/images/commit-summary-2.gif)
 
 ## Why Use Penify-CLI?
@@ -71,7 +84,6 @@ This command will:
 2. **Be Consistent**: All commit messages follow the same style.
 3. **Don't Miss Details**: The AI catches things you might forget.
 4. **Learn**: Improve your own commit writing skills.
-
 
 ## Tips for Using Penify-CLI
 
