@@ -16,7 +16,6 @@ Welcome to the Penify Documentation Site, powered by VitePress. This guide will 
 
 ```bash
 $ git clone https://github.com/SingularityX-ai/Penify-usage-doc-site
-
 $ cd Penify-usage-doc-site
 ```
 
