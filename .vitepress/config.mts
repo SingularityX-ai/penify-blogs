@@ -14,7 +14,14 @@ export default defineConfig({
     ['meta', { property: 'og:description', content: 'Effortlessly generate precise, human like docstrings for GitHub repos with Penify.' }],
     ['meta', { property: 'og:image', content: '../public/banner.png' }],
     ['meta', { property: 'og:url', content: 'https://www.penify.dev' }],
-    ['script', { type: 'text/javascript', id: 'hs-script-loader', src: '//js-na1.hs-scripts.com/44651459.js' }]
+    ['script', { type: 'text/javascript', id: 'hs-script-loader', src: '//js-na1.hs-scripts.com/44651459.js' }],
+    ['script', { async: "true", src: 'https://www.googletagmanager.com/gtag/js?id=G-P8LJ4ENK1H' }],
+    ['script', {}, `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-P8LJ4ENK1H');
+    `]
   ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
