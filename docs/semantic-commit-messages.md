@@ -1,5 +1,9 @@
 ---
 layout: doc
+title: "The Power of Semantic Commit Messages: Enhancing Code Quality and Collaboration"
+description: "Discover how Semantic Commit Messages can transform your development process. Learn the structure, types, and best practices for writing clear, consistent, and meaningful commit messages that improve code quality, automate workflows, and foster better team collaboration."
+keywords: Semantic Commit Messages, Git best practices, Code documentation, Version control, Commit conventions, Automated changelog, Code review process, Software development workflow, Commitizen, semantic-release, commitlint
+
 ---
 
 # The Power of Semantic Commit Messages: Elevating Your Code Quality and Collaboration

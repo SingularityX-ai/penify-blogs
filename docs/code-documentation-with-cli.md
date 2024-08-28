@@ -1,5 +1,8 @@
 ---
 layout: doc
+title: "Revolutionize Your Workflow: Automating Code Documentation with Penify-CLI"
+description: "Discover how Penify-CLI, an AI-powered command-line tool, can transform your code documentation process. Learn about its features, installation, usage for single files, folders, and Git repositories, and best practices for integrating it into your development workflow to save time and improve code maintainability."
+keywords: Penify-CLI, code documentation, automation, AI-powered documentation, developer tools, command-line interface, Git integration, software development, code maintainability, documentation best practices, time-saving tools, continuous integration
 ---
 
 # Automate Code Documentation with Penify-CLI
@@ -33,13 +36,15 @@ First things first, let's get Penify-CLI installed:
 pip install penify-cli
 ```
 
-### Setup Environment Variables
+## Login
 
-- `PENIFY_API_TOKEN`: You can set this environment variable with your API token to avoid passing it as an argument each time. Here is the [tutorial](https://docs.penify.dev/docs/Creating-API-Keys-in-Penify.html) on setting env variables
+You can login using the command 
 
 ```bash
-export PENIFY_API_TOKEN=skl_ai_******
+penify-cli login
 ```
+
+or else you can manually set the token by following this tutorial: [tutorial](https://docs.penify.dev/docs/Creating-API-Keys-in-Penify.html) 
 
 ## Generating Documentation:
 

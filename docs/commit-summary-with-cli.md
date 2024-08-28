@@ -1,5 +1,8 @@
 ---
 layout: doc
+title: "Streamline Your Git Workflow: Mastering Semantic Commit Messages with Penify-CLI"
+description: "Learn how to use Penify-CLI's Commit Summary Generator to automate the creation of meaningful, semantic commit messages. This guide covers installation, usage, customization options, and best practices for integrating Penify-CLI into your Git workflow, helping you save time and improve commit consistency."
+keywords: Penify-CLI, commit summary generator, semantic commit messages, Git workflow, automated commits, AI-powered commits, developer tools, version control, commit message consistency, code documentation, time-saving tools, Git best practices
 ---
 
 # Simplify Git Commits with Penify-CLI's Commit Summary Generator

@@ -1,4 +1,4 @@
-import { defineConfig } from "vitepress";
+import { defineConfig, HeadConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -6,12 +6,28 @@ export default defineConfig({
   title: "Penify",
   titleTemplate: ":title",
   description: "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
+  transformHead: ({pageData}) => {
+    const head: HeadConfig[] = [];
+
+    head.push([
+      "meta",
+      { property: "og:title", content: pageData.frontmatter.title },
+    ]);
+    head.push([
+      "meta",
+      { property: "og:description", content: pageData.frontmatter.description },
+    ]);
+    head.push([
+      "keywords",
+      { property: "og:keywords", content: pageData.frontmatter.keywords },
+    ]);
+
+    return head;
+  },
   head: [
     ["link", { rel: "icon", href: "/favicon.ico" }],
     ['meta', { name: 'Penify', content: 'Automated Docstring Generation' }],
     ['meta', { name: 'keywords', content: 'Penify, docstring, automated docstring, python docstring, LLMs, Generative AI, AI documentation, AI docstring' }],
-    ['meta', { property: 'og:title', content: 'Penify' }],
-    ['meta', { property: 'og:description', content: 'Effortlessly generate precise, human like docstrings for GitHub repos with Penify.' }],
     ['meta', { property: 'og:image', content: '../public/banner.png' }],
     ['meta', { property: 'og:url', content: 'https://www.penify.dev' }],
     ['script', { type: 'text/javascript', id: 'hs-script-loader', src: '//js-na1.hs-scripts.com/44651459.js' }],

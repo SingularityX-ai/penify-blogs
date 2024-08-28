@@ -1,4 +1,5 @@
 ---
+layout: doc
 title: "Four Common Docstring format in Python according to PEP-8 Style Guide"
 description: "Standard Python Docstring according to PEP-8 style guide and they are Google, Epytext, rEST, Numpy"
 image: "../../public/blogs/docstring.webp"
@@ -6,9 +7,8 @@ publishedAt: "2024-02-12"
 updatedAt: "2024-02-12"
 author: "Suman Saurabh"
 isPublished: true
-tags:
-- Docstring
-layout: doc
+image: "../../public/blogs/docstring.webp"
+keywords: Python docstrings, PEP-8 style guide, PEP-257, Google docstring format, Epytext format, reStructuredText (rST), NumPy docstring format, code documentation, Python best practices, PEP-8
 ---
 
 # Four Common Docstring format in Python according to PEP-8 Style Guide
