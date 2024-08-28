@@ -7,7 +7,6 @@ publishedAt: "2024-02-12"
 updatedAt: "2024-02-12"
 author: "Suman Saurabh"
 isPublished: true
-image: "../../public/blogs/docstring.webp"
 keywords: Python docstrings, PEP-8 style guide, PEP-257, Google docstring format, Epytext format, reStructuredText (rST), NumPy docstring format, code documentation, Python best practices, PEP-8
 ---
 
