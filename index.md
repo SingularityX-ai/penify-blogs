@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "📄 Automated Code Documentation: A Decade in Review"
+    details: "Explore a decade of progress in automated source code documentation. Learn how AI and deep learning are revolutionizing the way developers write and maintain code."
+    link: /docs/automated-source-code-documentation.md
   - title: 📝 Simplify Git Commits with Penify-CLI's Summary Generator
     details: Penify-CLI is a tool that automatically generates meaningful commit messages.
     link: /docs/commit-summary-with-cli.md
