@@ -12,8 +12,6 @@ image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayp
 
 # The Evolution of Automated Source Code Documentation: A Decade in Review
 
-**Keywords:** automated code documentation, source code summarization, deep learning for code, software engineering, natural language processing, code2vec, AST-based models
-
 In the fast-paced world of software development, clear and concise documentation is crucial. But let's face it – writing documentation is often seen as a chore. What if we could automate this process? Over the past decade, researchers have been working tirelessly to make this a reality. Let's dive into the fascinating world of automated source code documentation and see how far we've come.
 
 ## The Big Picture
