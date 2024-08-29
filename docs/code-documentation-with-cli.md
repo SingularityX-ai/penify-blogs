@@ -3,6 +3,9 @@ layout: doc
 title: "Revolutionize Your Workflow: Automating Code Documentation with Penify-CLI"
 description: "Discover how Penify-CLI, an AI-powered command-line tool, can transform your code documentation process. Learn about its features, installation, usage for single files, folders, and Git repositories, and best practices for integrating it into your development workflow to save time and improve code maintainability."
 keywords: Penify-CLI, code documentation, automation, AI-powered documentation, developer tools, command-line interface, Git integration, software development, code maintainability, documentation best practices, time-saving tools, continuous integration
+author: Suman Sauarbh
+linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
+image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
 # Automate Code Documentation with Penify-CLI

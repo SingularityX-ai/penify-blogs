@@ -1,14 +1,15 @@
 ---
 title: "Unveiling the Best AI Tools for Documenting your code - Penify"
 description: " Penify, it automates human-like documentation, seamlessly syncing with code changes for accuracy and coherence. Ideal for developers and tech enthusiasts, this post delves into the transformative impact of AI in coding."
-image: "../public/images/best-ai-tool.jpg"
 publishedAt: "2024-01-12"
 updatedAt: "2024-01-12"
-author: "Suman Saurabh"
 isPublished: true
 tags:
 - Snorkell, PWA
 layout: doc
+author: Suman Sauarbh
+linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
+image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
 
 In the ever-evolving world of software development, the need for efficient and accurate tools is paramount. Today, I would like share a groundbreaking development in this space - an Automatic Documentation Generator for repositories.
