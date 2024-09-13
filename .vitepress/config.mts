@@ -58,6 +58,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "📄 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
+        link: "/docs/automated-source-code-documentation.md",
+      },
+      {
         text: "📄 Automated Code Documentation: A Decade in Review",
         link: "/docs/automated-source-code-documentation.md",
       },
