@@ -8,7 +8,7 @@ hero:
 features:
   - title: "A Comparative Overview of LangChain, Semantic Kernel, AutoGen"
     details: "Explore the key differences and features of popular frameworks for developing applications with Large Language Models (LLMs). Learn how LangChain, Semantic Kernel, AutoGen, and OpenAI's Assistant API are shaping the future of AI-powered software development."
-    link: /docs/automated-source-code-documentation.md
+    link: /docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md
   - title: "📄 Automated Code Documentation: A Decade in Review"
     details: "Explore a decade of progress in automated source code documentation. Learn how AI and deep learning are revolutionizing the way developers write and maintain code."
     link: /docs/automated-source-code-documentation.md
