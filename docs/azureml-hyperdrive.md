@@ -1,9 +1,9 @@
 ---
 layout: doc
-title: "AzureML vs HyperDrive"
-description: "Azure Machine Learning provides two powerful features for model training and optimization"
-keywords: Penify-CLI, code documentation, automation, AI-powered documentation, developer tools, command-line interface, Git integration, software development, code maintainability, documentation best practices, time-saving tools, continuous integration
-author: Suman Sauarbh
+title: "Azure ML: HyperDrive vs AutoML – Choosing the Right Model Optimization Tool"
+description: "Compare Azure ML's HyperDrive and AutoML to determine the best approach for model training and optimization. Learn when to use hyperparameter tuning with HyperDrive versus automated model selection with AutoML, along with step-by-step implementation guides."
+keywords: Azure Machine Learning, HyperDrive, AutoML, Hyperparameter Tuning, Machine Learning Optimization, Automated Machine Learning, AI Model Training, Data Science Automation, ML Model Selection, Cloud AI Tools, Deep Learning Optimization, AI in Azure, ML Workflow Automation, AI for Developers, Model Training in Azure
+author: Suman Saurabh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
 image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
 ---
