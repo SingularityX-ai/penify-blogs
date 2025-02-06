@@ -8,7 +8,7 @@ hero:
 features:
   - title: 🚀 AzureML vs HyperDrive
     details: Azure Machine Learning provides two powerful features for model training and optimization.
-    link: /docs/azureml-hyperdive.md
+    link: /docs/azureml-hyperdrive.md
   - title: "A Comparative Overview of LangChain, Semantic Kernel, AutoGen"
     details: "Explore the key differences and features of popular frameworks for developing applications with Large Language Models (LLMs). Learn how LangChain, Semantic Kernel, AutoGen, and OpenAI's Assistant API are shaping the future of AI-powered software development."
     link: /docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md
