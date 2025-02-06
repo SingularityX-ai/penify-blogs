@@ -58,6 +58,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "📄 AzureML vs HyperDrive",
+        link: "/docs/azureml-hyperdive.md",
+      },
+      {
         text: "📄 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
         link: "/docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md",
       },
