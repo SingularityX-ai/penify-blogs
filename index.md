@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "Run HyperDrive Using Azure"
+    details: "Learn how to run HyperDrive using Azure."
+    link: /docs/run-hyperdrive-using-azure.md
   - title: 🚀 AzureML vs HyperDrive
     details: Azure Machine Learning provides two powerful features for model training and optimization.
     link: /docs/azureml-hyperdrive.md

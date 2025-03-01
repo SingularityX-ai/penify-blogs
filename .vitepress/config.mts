@@ -58,6 +58,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "📄 Run HyperDrive Using Azure",
+        link: "/docs/run-hyperdrive-using-azure.md",
+      },
+      {
         text: "📄 AzureML vs HyperDrive",
         link: "/docs/azureml-hyperdrive.md",
       },
@@ -66,7 +70,7 @@ export default defineConfig({
         link: "/docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md",
       },
       {
-        text: "📄 Automated Code Documentation: A Decade in Review",
+        text: "📄 Automated Code Docapaumentation: A Decade in Review",
         link: "/docs/automated-source-code-documentation.md",
       },
       {
