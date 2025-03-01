@@ -59,9 +59,10 @@ const handleSubmit = async () => {
 <style scoped>
 .email-signup {
   padding: 1.5rem;
-  margin: 2rem 0;
+  margin: 2rem auto;
   border-radius: 8px;
   background-color: var(--vp-c-bg-soft);
+  max-width: 500px;
 }
 
 .signup-form {
@@ -69,11 +70,14 @@ const handleSubmit = async () => {
   flex-direction: column;
   gap: 1rem;
   margin: 1rem 0;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input {
   width: 100%;
-  padding: 0.5rem;
+  padding: 0.75rem;
   border: 1px solid var(--vp-c-divider);
   border-radius: 4px;
   background: var(--vp-c-bg);
@@ -81,14 +85,16 @@ input {
 }
 
 button {
-  width: 100%;
-  padding: 0.75rem 1rem;
+  width: auto;
+  min-width: 120px;
+  padding: 0.75rem 2rem;
   background-color: var(--vp-c-brand);
   color: var(--vp-c-bg);
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: opacity 0.2s;
+  margin: 0 auto;
 }
 
 button:hover:not(:disabled) {
