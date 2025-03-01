@@ -41,3 +41,7 @@ features:
     link: /docs/penify-genesis.md
 ---
 
+<ClientOnly>
+  <EmailSignup />
+</ClientOnly>
+
