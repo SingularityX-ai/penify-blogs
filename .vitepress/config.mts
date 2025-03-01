@@ -58,6 +58,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "📄 20 Essential Git Command-Line Tricks for Developers",
+        link: "/docs/command-line-tricks-developer-should-know.md",
+      },
+      {
         text: "📄 Run HyperDrive Using Azure",
         link: "/docs/run-hyperdrive-using-azure.md",
       },

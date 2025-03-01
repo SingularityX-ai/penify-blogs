@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "20 Git Command-Line Tricks Every Developer Should Know"
+    details: "20 Git Command-Line Tricks Every Developer Should Know."
+    link: /docs/command-line-tricks-developer-should-know.md
   - title: "Run HyperDrive Using Azure"
     details: "Learn how to run HyperDrive using Azure."
     link: /docs/run-hyperdrive-using-azure.md
