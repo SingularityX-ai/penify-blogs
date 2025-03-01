@@ -7,7 +7,7 @@
     "node": "20.x"
   },
   "scripts": {
-    "build": "vitepress build",
+    "build": "NODE_ENV=production vitepress build",
     "docs:dev": "vitepress dev --port 3000 --host",
     "docs:build": "vitepress build",
     "docs:preview": "vitepress preview"
@@ -15,6 +15,7 @@
   "devDependencies": {
     "@supabase/supabase-js": "^2.39.0",
     "vite-plugin-webp-generator": "^0.0.5",
-    "vitepress": "^1.0.0-rc.31"
+    "vitepress": "^1.0.0-rc.31",
+    "@types/node": "^20.0.0"
   }
 }
