@@ -20,7 +20,7 @@ jobs:
           node-version: '20'
 
       - name: Install dependencies
-        run: npm install gray-matter
+        run: npm install gray-matter node-fetch
 
       - name: Check for content changes
         id: check-changes
