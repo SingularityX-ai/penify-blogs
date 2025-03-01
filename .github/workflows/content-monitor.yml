@@ -1,0 +1,79 @@
+name: Monitor Blog Content Changes
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - 'index.md'
+
+jobs:
+  check-content-changes:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '20'
+
+      - name: Install dependencies
+        run: npm install gray-matter
+
+      - name: Check for content changes
+        id: check-changes
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const matter = require('gray-matter');
+            
+            // Get the current content
+            const currentContent = matter(fs.readFileSync('index.md', 'utf8'));
+            const currentFeatures = currentContent.data.features || [];
+            
+            // Get the previous content
+            const { execSync } = require('child_process');
+            const previousContent = execSync('git show HEAD^:index.md').toString();
+            const previousFeatures = matter(previousContent).data.features || [];
+            
+            // Find new features
+            const newFeatures = currentFeatures.filter(current => {
+              return !previousFeatures.some(prev => prev.link === current.link);
+            });
+            
+            if (newFeatures.length > 0) {
+              // Make API call for new content
+              const fetch = require('node-fetch');
+              
+              try {
+                const response = await fetch('https://prod.snorkell.ai/alert-emails-to-user', {
+                  method: 'POST',
+                  headers: {
+                    'Content-Type': 'application/json',
+                  },
+                  body: JSON.stringify({
+                    newBlogs: newFeatures,
+                    timestamp: new Date().toISOString()
+                  }),
+                });
+                
+                if (!response.ok) {
+                  throw new Error(`API call failed with status ${response.status}`);
+                }
+                
+                console.log('Successfully notified about new content:', 
+                  newFeatures.map(f => f.title).join(', '));
+                
+              } catch (error) {
+                core.setFailed(`Failed to send notification: ${error.message}`);
+              }
+            }
+
+      - name: Handle API call failure
+        if: ${{ failure() }}
+        run: |
+          echo "Failed to process content changes or send notifications"
+          exit 1
