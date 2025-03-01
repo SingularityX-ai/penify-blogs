@@ -58,47 +58,50 @@ export default defineConfig({
 
     sidebar: [
       {
-        text: "📄 20 Essential Git Command-Line Tricks for Developers",
+        text: "📜 How to Streamline LLM Applications with LiteLLM Proxy: A Simple Guide",
+        link: "/docs/Streamline-LLM-Applications-with-LiteLLM.md",
+      },
+      {
+        text: "📜 20 Essential Git Command-Line Tricks for Developers",
         link: "/docs/command-line-tricks-developer-should-know.md",
       },
       {
-        text: "📄 Run HyperDrive Using Azure",
+        text: "☁️ Run HyperDrive Using Azure",
         link: "/docs/run-hyperdrive-using-azure.md",
       },
       {
-        text: "📄 AzureML vs HyperDrive",
+        text: "⚖️ AzureML vs HyperDrive",
         link: "/docs/azureml-hyperdrive.md",
       },
       {
-        text: "📄 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
+        text: "🔍 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
         link: "/docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md",
       },
       {
-        text: "📄 Automated Code Docapaumentation: A Decade in Review",
+        text: "📚 Automated Code Documentation: A Decade in Review",
         link: "/docs/automated-source-code-documentation.md",
       },
       {
-        text: "📝 Simplify Git Commits with Penify-CLI's Summary Generator",
+        text: "✍️ Simplify Git Commits with Penify-CLI's Summary Generator",
         link: "/docs/commit-summary-with-cli.md",
       },
       {
-        text: "📄 Automate Code Documentation with Penify-CLI",
+        text: "🤖 Automate Code Documentation with Penify-CLI",
         link: "/docs/code-documentation-with-cli.md",
       },
       {
-        text: "📝 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
+        text: "📩 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
         link: "/docs/semantic-commit-messages.md",
       },
       {
-        text: "🛠️ Four Common Docstring format in Python",
+        text: "🐍 Four Common Docstring Formats in Python",
         link: "/docs/common-docstring-format-in-python.md",
       },
       {
-        text: "🚀 Penify Genesis",
+        text: "🌱 Penify Genesis",
         link: "/docs/penify-genesis",
       }
     ],
-
     socialLinks: [
       {icon: {svg: `<?xml version="1.0" encoding="iso-8859-1"?>
 <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->

@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "How to Streamline LLM Applications with LiteLLM Proxy: A Simple Guide"
+    details: "Want to simplify Large Language Model (LLM) integration? LiteLLM Proxy is your go-to tool. This guide covers what LiteLLM Proxy does, how to set it up, and tips to optimize it for LLM applications—perfect for developers looking to save time and boost efficiency."
+    link: /docs/Streamline-LLM-Applications-with-LiteLLM.md
   - title: "20 Git Command-Line Tricks Every Developer Should Know"
     details: "20 Git Command-Line Tricks Every Developer Should Know."
     link: /docs/command-line-tricks-developer-should-know.md
