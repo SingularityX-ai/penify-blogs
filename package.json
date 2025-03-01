@@ -13,6 +13,7 @@
     "docs:preview": "vitepress preview"
   },
   "devDependencies": {
+    "@supabase/supabase-js": "^2.39.0",
     "vite-plugin-webp-generator": "^0.0.5",
     "vitepress": "^1.0.0-rc.31"
   }
