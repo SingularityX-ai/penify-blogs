@@ -149,13 +149,13 @@ export default defineConfig({
       { icon: "linkedin", link: "https://www.linkedin.com/company/penify-dev/", ariaLabel: "LinkedIn URL" },
       { icon: "youtube", link: "https://www.youtube.com/@penify-dev", ariaLabel: "YouTube URL" },
       { icon: "twitter", link: "https://twitter.com/Snorkell_ai", ariaLabel: "Twitter URL" },
-      { icon: "instagram", link: "https://www.instagram.com/penify.dev/", ariaLabel: "Twitter URL" },
+      { icon: "instagram", link: "https://www.instagram.com/penify.dev/", ariaLabel: "Instagram URL" },
       { icon: "discord", link: "https://discord.gg/wqrc8JeV", ariaLabel: "Discord URL" },
     ],
 
     footer: {
       copyright: "Copyright &copy; 2023 Snorkell Associates and Co",
-    },
+    }
   },
   appearance: true, // Enable theme switching
   sitemap: {
