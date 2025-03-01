@@ -2,6 +2,7 @@
   <Layout>
     <template #aside-bottom>
       <ShareButtons />
+      <EmailSignup />
     </template>
     <template #doc-footer-before>
       <AuthorInfo />
@@ -13,7 +14,7 @@
 import DefaultTheme from 'vitepress/theme'
 import ShareButtons from './ShareButtons.vue'
 import AuthorInfo from './AuthorInfo.vue'
-
+import EmailSignup from './EmailSignup.vue'
 
 const { Layout } = DefaultTheme
 </script>
