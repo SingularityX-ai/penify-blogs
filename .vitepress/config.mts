@@ -66,6 +66,10 @@ export default defineConfig({
 
     sidebar: [
       {
+        text: "📚 Chain of Draft: Thinking Faster with Less",
+        link: "/docs/chain-of-draft.md",
+      },
+      {
         text: "📜 How to Streamline LLM Applications with LiteLLM Proxy: A Simple Guide",
         link: "/docs/Streamline-LLM-Applications-with-LiteLLM.md",
       },
