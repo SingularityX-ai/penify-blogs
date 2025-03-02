@@ -862,21 +862,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*":
+"@types/node@npm:*, @types/node@npm:^22.13.8":
   version: 22.13.8
   resolution: "@types/node@npm:22.13.8"
   dependencies:
     undici-types: "npm:~6.20.0"
   checksum: 10c0/bfc92b734a9dce6ac5daee0a52feccdf5dcb3804d895e4bc5384e2f4644612b8801725cd03c8c3c0888fb5eeb16b875877ac44b77641e0196dc1a837b1c2a366
-  languageName: node
-  linkType: hard
-
-"@types/node@npm:^20.0.0":
-  version: 20.17.22
-  resolution: "@types/node@npm:20.17.22"
-  dependencies:
-    undici-types: "npm:~6.19.2"
-  checksum: 10c0/5a78f60144bd69eaf1bdce39c906d988b0dc0f4c13068af9a3c44b0df737a0f363680a97d073a45d962b061cd4b3a8cfab71eec491ca6845888b68ab7855a778
   languageName: node
   linkType: hard
 
@@ -4891,8 +4882,8 @@ __metadata:
   resolution: "penify-documentation-site@workspace:."
   dependencies:
     "@supabase/supabase-js": "npm:^2.39.0"
-    "@types/node": "npm:^20.0.0"
-    vite-plugin-webp-generator: "npm:^0.0.5"
+    "@types/node": "npm:^22.13.8"
+    vite-plugin-webp-generator: "npm:^0.1.0"
     vitepress: "npm:^1.6.3"
   languageName: unknown
   linkType: soft
@@ -6277,13 +6268,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"undici-types@npm:~6.19.2":
-  version: 6.19.8
-  resolution: "undici-types@npm:6.19.8"
-  checksum: 10c0/078afa5990fba110f6824823ace86073b4638f1d5112ee26e790155f481f2a868cc3e0615505b6f4282bdf74a3d8caad715fd809e870c2bb0704e3ea6082f344
-  languageName: node
-  linkType: hard
-
 "undici-types@npm:~6.20.0":
   version: 6.20.0
   resolution: "undici-types@npm:6.20.0"
@@ -6522,13 +6506,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"vite-plugin-webp-generator@npm:^0.0.5":
-  version: 0.0.5
-  resolution: "vite-plugin-webp-generator@npm:0.0.5"
+"vite-plugin-webp-generator@npm:^0.1.0":
+  version: 0.1.0
+  resolution: "vite-plugin-webp-generator@npm:0.1.0"
   dependencies:
     gulp: "npm:^4.0.2"
     gulp-cwebp: "npm:^4.0.2"
-  checksum: 10c0/8f3942000d1c56c679acff6ae3c8edef2baf7c93ae3d5f2f5b1dc71c0df0a6201ac12619467587a1e9df1c1794e717a36af669f325efb64d8f4ed6bcc40e27f7
+  checksum: 10c0/8c99f62c9334ff34143afa0ddb3e213a6f58a21dadd4829bf6480de9bce0eb5eeec645493d67c7bb40b6b067f233abb4c03c8cc239e937e3d6584fbcbc4f1474
   languageName: node
   linkType: hard
 

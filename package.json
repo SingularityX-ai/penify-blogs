@@ -14,8 +14,8 @@
   },
   "devDependencies": {
     "@supabase/supabase-js": "^2.39.0",
-    "@types/node": "^20.0.0",
-    "vite-plugin-webp-generator": "^0.0.5",
+    "@types/node": "^22.13.8",
+    "vite-plugin-webp-generator": "^0.1.0",
     "vitepress": "^1.6.3"
   }
 }
