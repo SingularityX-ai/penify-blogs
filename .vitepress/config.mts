@@ -1,4 +1,5 @@
 import { defineConfig, HeadConfig } from "vitepress";
+import { robotsPlugin } from './plugins/robotsPlugin';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
@@ -173,6 +174,11 @@ export default defineConfig({
     }
   },
   appearance: true, // Enable theme switching
+  vite: {
+    plugins: [
+      robotsPlugin({ hostname: 'https://blogs.penify.dev' })
+    ]
+  },
   sitemap: {
     hostname: 'https://blogs.penify.dev',
     lastmodDateOnly: false
