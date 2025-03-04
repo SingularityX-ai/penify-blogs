@@ -64,8 +64,11 @@ export default defineConfig({
     search: {
       provider: "local",
     },
-
     sidebar: [
+      {
+        text: "📚 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing",
+        link: "/docs/extending-duck-db-for-distrubuted-data-processing.md",
+      },
       {
         text: "📚 Chain of Draft: Thinking Faster with Less",
         link: "/docs/chain-of-draft.md",
