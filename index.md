@@ -6,7 +6,7 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
-  - title: "DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing"
+  - title: "🚀 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing"
     details: "Explore how DeepSeek’s smallpond transforms DuckDB into a distributed computing powerhouse for big data. Dive into its architecture, performance benchmarks, and trade-offs, and learn when to leverage this lightweight framework versus other scalable solutions like Spark or serverless approaches."
     link: /docs/extending-duck-db-for-distributed-data-processing.md
   - title: "Chain of Draft: Thinking Faster with Less"
