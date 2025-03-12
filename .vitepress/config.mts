@@ -66,6 +66,10 @@ export default defineConfig({
     },
     sidebar: [
       {
+        text: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March",
+        link: "/docs/current-strongest-model-that-fits-on-a-single-GPU.md",
+      },
+      {
         text: "📚 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing",
         link: "/docs/extending-duck-db-for-distrubuted-data-processing.md",
       },

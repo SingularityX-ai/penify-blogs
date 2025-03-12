@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March"
+    details: "Discover Google's Gemma 3 AI models, built on Gemini technology. Learn about their powerful text and multimodal capabilities, large context window, and how to deploy them on a single GPU. Explore benchmarks, performance comparisons, and use cases."
+    link: /docs/current-strongest-model-that-fits-on-a-single-GPU.md
   - title: "🚀 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing"
     details: "Explore how DeepSeek’s smallpond transforms DuckDB into a distributed computing powerhouse for big data. Dive into its architecture, performance benchmarks, and trade-offs, and learn when to leverage this lightweight framework versus other scalable solutions like Spark or serverless approaches."
     link: /docs/extending-duck-db-for-distributed-data-processing.md
