@@ -168,7 +168,7 @@ export default defineConfig({
 	</g>
 </g>
 </svg>`}, link: "https://docs.penify.dev/", ariaLabel: "Penify Docs"},
-      { icon: "github", link: "https://github.com/SingularityX-ai/", ariaLabel: "GitHub URL"},
+      { icon: "github", link: "https://github.com/Penify-dev/", ariaLabel: "GitHub URL"},
       { icon: "linkedin", link: "https://www.linkedin.com/company/penify-dev/", ariaLabel: "LinkedIn URL" },
       { icon: "youtube", link: "https://www.youtube.com/@penify-dev", ariaLabel: "YouTube URL" },
       { icon: "twitter", link: "https://twitter.com/Snorkell_ai", ariaLabel: "Twitter URL" },
