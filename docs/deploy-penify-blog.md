@@ -63,7 +63,7 @@ First, let's clone the Penify Blog template to get started:
 
 ```bash
 # Clone the repository
-git clone https://github.com/SingularityX-ai/Penify-usage-doc-site
+git clone https://github.com/Penify-dev/Penify-usage-doc-site
 cd Penify-usage-doc-site
 
 # Install dependencies
