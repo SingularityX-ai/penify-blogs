@@ -29,7 +29,7 @@ const loadGiscus = () => {
   // Create script
   const script = document.createElement('script')
   script.src = 'https://giscus.app/client.js'
-  script.dataset.repo = 'SingularityX-ai/penify-discussions' // Updated to your actual repo name
+  script.dataset.repo = 'Penify-dev/penify-discussions' // Updated to your actual repo name
   script.dataset.repoId = 'R_kgDOOBxgmA' // This needs to be updated with the correct repo ID
   script.dataset.category = 'Announcements' // This may need to be updated
   script.dataset.categoryId = 'DIC_kwDOOBxgmM4Cnexr' // This needs to be updated with the correct category ID
