@@ -66,6 +66,10 @@ export default defineConfig({
     },
     sidebar: [
       {
+        text: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud",
+        link: "/docs/Amazon-to-Scrap-Local-Alexa-Processing.md",
+      },
+      {
         text: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March",
         link: "/docs/current-strongest-model-that-fits-on-a-single-GPU.md",
       },

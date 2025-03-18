@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud"
+    details: "Explore the implications of Amazon's decision to eliminate local Alexa voice processing, shifting all requests to the cloud. Learn about the privacy concerns, generative AI advancements, and the future of Echo devices."
+    link: /docs/Amazon-to-Scrap-Local-Alexa-Processing.md
   - title: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March"
     details: "Discover Google's Gemma 3 AI models, built on Gemini technology. Learn about their powerful text and multimodal capabilities, large context window, and how to deploy them on a single GPU. Explore benchmarks, performance comparisons, and use cases."
     link: /docs/current-strongest-model-that-fits-on-a-single-GPU.md
