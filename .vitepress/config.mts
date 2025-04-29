@@ -66,65 +66,72 @@ export default defineConfig({
     },
     sidebar: [
       {
-        text: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud",
-        link: "/docs/Amazon-to-Scrap-Local-Alexa-Processing.md",
+        text: "Penify Blogs",
+        items: [{
+          text: "🧠 How Much Docstring Is Enough? A Practical Guide for Python Developers",
+          link: "/docs/how-much-docstring-is-enough.md",
+        },
+        {
+          text: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud",
+          link: "/docs/Amazon-to-Scrap-Local-Alexa-Processing.md",
+        },
+        {
+          text: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March",
+          link: "/docs/current-strongest-model-that-fits-on-a-single-GPU.md",
+        },
+        {
+          text: "📚 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing",
+          link: "/docs/extending-duck-db-for-distrubuted-data-processing.md",
+        },
+        {
+          text: "📚 Chain of Draft: Thinking Faster with Less",
+          link: "/docs/chain-of-draft.md",
+        },
+        {
+          text: "📜 How to Streamline LLM Applications with LiteLLM Proxy: A Simple Guide",
+          link: "/docs/Streamline-LLM-Applications-with-LiteLLM.md",
+        },
+        {
+          text: "📜 20 Essential Git Command-Line Tricks for Developers",
+          link: "/docs/command-line-tricks-developer-should-know.md",
+        },
+        {
+          text: "☁️ Run HyperDrive Using Azure",
+          link: "/docs/run-hyperdrive-using-azure.md",
+        },
+        {
+          text: "⚖️ AzureML vs HyperDrive",
+          link: "/docs/azureml-hyperdrive.md",
+        },
+        {
+          text: "🔍 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
+          link: "/docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md",
+        },
+        {
+          text: "📚 Automated Code Documentation: A Decade in Review",
+          link: "/docs/automated-source-code-documentation.md",
+        },
+        {
+          text: "✍️ Simplify Git Commits with Penify-CLI's Summary Generator",
+          link: "/docs/commit-summary-with-cli.md",
+        },
+        {
+          text: "🤖 Automate Code Documentation with Penify-CLI",
+          link: "/docs/code-documentation-with-cli.md",
+        },
+        {
+          text: "📩 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
+          link: "/docs/semantic-commit-messages.md",
+        },
+        {
+          text: "🐍 Four Common Docstring Formats in Python",
+          link: "/docs/common-docstring-format-in-python.md",
+        },
+        {
+          text: "🌱 Penify Genesis",
+          link: "/docs/penify-genesis",
+        }]
       },
-      {
-        text: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March",
-        link: "/docs/current-strongest-model-that-fits-on-a-single-GPU.md",
-      },
-      {
-        text: "📚 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing",
-        link: "/docs/extending-duck-db-for-distrubuted-data-processing.md",
-      },
-      {
-        text: "📚 Chain of Draft: Thinking Faster with Less",
-        link: "/docs/chain-of-draft.md",
-      },
-      {
-        text: "📜 How to Streamline LLM Applications with LiteLLM Proxy: A Simple Guide",
-        link: "/docs/Streamline-LLM-Applications-with-LiteLLM.md",
-      },
-      {
-        text: "📜 20 Essential Git Command-Line Tricks for Developers",
-        link: "/docs/command-line-tricks-developer-should-know.md",
-      },
-      {
-        text: "☁️ Run HyperDrive Using Azure",
-        link: "/docs/run-hyperdrive-using-azure.md",
-      },
-      {
-        text: "⚖️ AzureML vs HyperDrive",
-        link: "/docs/azureml-hyperdrive.md",
-      },
-      {
-        text: "🔍 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
-        link: "/docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md",
-      },
-      {
-        text: "📚 Automated Code Documentation: A Decade in Review",
-        link: "/docs/automated-source-code-documentation.md",
-      },
-      {
-        text: "✍️ Simplify Git Commits with Penify-CLI's Summary Generator",
-        link: "/docs/commit-summary-with-cli.md",
-      },
-      {
-        text: "🤖 Automate Code Documentation with Penify-CLI",
-        link: "/docs/code-documentation-with-cli.md",
-      },
-      {
-        text: "📩 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
-        link: "/docs/semantic-commit-messages.md",
-      },
-      {
-        text: "🐍 Four Common Docstring Formats in Python",
-        link: "/docs/common-docstring-format-in-python.md",
-      },
-      {
-        text: "🌱 Penify Genesis",
-        link: "/docs/penify-genesis",
-      }
     ],
     socialLinks: [
       {icon: {svg: `<?xml version="1.0" encoding="iso-8859-1"?>

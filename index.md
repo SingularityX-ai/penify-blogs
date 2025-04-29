@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "🧠 How Much Docstring Is Enough? A Practical Guide for Python Developers"
+    details: "Learn how to write clear, concise, and useful Python docstrings. Discover when to use one-liners, short, or full docstrings, and follow best practices for documenting your code."
+    link: /docs/how-much-docstring-is-enough.md
   - title: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud"
     details: "Explore the implications of Amazon's decision to eliminate local Alexa voice processing, shifting all requests to the cloud. Learn about the privacy concerns, generative AI advancements, and the future of Echo devices."
     link: /docs/Amazon-to-Scrap-Local-Alexa-Processing.md
