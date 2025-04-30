@@ -307,9 +307,9 @@ Remember the rule of thumb: **If it's hard to explain, it's probably hard to mai
 
 ## 📚 See Also
 
-- [Common Docstring Format in Python](./docs/common-docstring-format-in-python.md)
-- [How Much Docstring is Enough?](./docs//how-much-docstring-is-enough.md)
-- [Automated Source Code Documentation](./docs//automated-source-code-documentation.md)
+- [Common Docstring Format in Python](/docs/common-docstring-format-in-python.md)
+- [How Much Docstring is Enough?](/docs/how-much-docstring-is-enough.md)
+- [Automated Source Code Documentation](/docs/automated-source-code-documentation.md)
 
 ---
 

@@ -133,7 +133,7 @@ Before you write a docstring, ask:
 
 ---
 
-**See also:** [Common Docstring Format in Python](./docs/common-docstring-format-in-python.md)
+**See also:** [Common Docstring Format in Python](/docs/common-docstring-format-in-python.md)
 
 ## 💡 Final Thoughts
 
