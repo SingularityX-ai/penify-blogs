@@ -6,6 +6,12 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "⚖️ Python Code Complexity Checkers: A Comprehensive Comparison"
+    details: "A detailed comparison of popular Python code complexity checkers including Radon, McCabe, Lizard, Wily, and Flake8. Learn the strengths, weaknesses, and unique features of each tool."
+    link: /docs/python-code-complexity-checkers-comparison.md
+  - title: "🔍 Measuring Function Complexity in Python: Tools and Techniques"
+    details: "Learn how to quantify Python function complexity using specialized libraries like Radon, McCabe, and Wily. Discover practical techniques for improving code quality and maintainability."
+    link: /docs/measuring-function-complexity-python.md
   - title: "🧠 How Much Docstring Is Enough? A Practical Guide for Python Developers"
     details: "Learn how to write clear, concise, and useful Python docstrings. Discover when to use one-liners, short, or full docstrings, and follow best practices for documenting your code."
     link: /docs/how-much-docstring-is-enough.md

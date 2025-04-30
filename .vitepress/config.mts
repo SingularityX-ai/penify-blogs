@@ -68,9 +68,43 @@ export default defineConfig({
       {
         text: "Penify Blogs",
         items: [{
+          text: "⚖️ Python Code Complexity Checkers: A Comprehensive Comparison",
+          link: "/docs/python-code-complexity-checkers-comparison.md",
+        },
+        {
+          text: "🔍 Measuring Function Complexity in Python: Tools and Techniques",
+          link: "/docs/measuring-function-complexity-python.md",
+        },
+        {
           text: "🧠 How Much Docstring Is Enough? A Practical Guide for Python Developers",
           link: "/docs/how-much-docstring-is-enough.md",
         },
+        {
+          text: "📚 Automated Code Documentation: A Decade in Review",
+          link: "/docs/automated-source-code-documentation.md",
+        },{
+          text: "🤖 Automate Code Documentation with Penify-CLI",
+          link: "/docs/code-documentation-with-cli.md",
+        },
+        {
+          text: "📩 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
+          link: "/docs/semantic-commit-messages.md",
+        },{
+          text: "✍️ Simplify Git Commits with Penify-CLI's Summary Generator",
+          link: "/docs/commit-summary-with-cli.md",
+        },
+        {
+          text: "🐍 Four Common Docstring Formats in Python",
+          link: "/docs/common-docstring-format-in-python.md",
+        },{
+          text: "🌱 Penify Genesis",
+          link: "/docs/penify-genesis",
+        }]
+      },
+      {
+        text: "General",
+        items: [
+       
         {
           text: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud",
           link: "/docs/Amazon-to-Scrap-Local-Alexa-Processing.md",
@@ -107,30 +141,7 @@ export default defineConfig({
           text: "🔍 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
           link: "/docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md",
         },
-        {
-          text: "📚 Automated Code Documentation: A Decade in Review",
-          link: "/docs/automated-source-code-documentation.md",
-        },
-        {
-          text: "✍️ Simplify Git Commits with Penify-CLI's Summary Generator",
-          link: "/docs/commit-summary-with-cli.md",
-        },
-        {
-          text: "🤖 Automate Code Documentation with Penify-CLI",
-          link: "/docs/code-documentation-with-cli.md",
-        },
-        {
-          text: "📩 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
-          link: "/docs/semantic-commit-messages.md",
-        },
-        {
-          text: "🐍 Four Common Docstring Formats in Python",
-          link: "/docs/common-docstring-format-in-python.md",
-        },
-        {
-          text: "🌱 Penify Genesis",
-          link: "/docs/penify-genesis",
-        }]
+        ]
       },
     ],
     socialLinks: [
