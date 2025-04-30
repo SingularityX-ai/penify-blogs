@@ -133,17 +133,10 @@ Before you write a docstring, ask:
 
 ---
 
+**See also:** [Common Docstring Format in Python](./docs/common-docstring-format-in-python.md)
+
 ## 💡 Final Thoughts
 
 Writing good docstrings is like leaving clues for future developers — and for your own future self. The goal isn't to **document everything**, but to **document what matters**.
 
 📌 **Good code tells how. Good docs tell why.**
-
----
-
-**Next Step**: Want a ready-to-use Python docstring template file for your projects?  
-Let me know — I’ll send you one!
-
----
-
-Would you like this in Markdown or HTML format for your blog or dev portfolio?
