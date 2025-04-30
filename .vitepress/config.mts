@@ -68,36 +68,36 @@ export default defineConfig({
       {
         text: "Penify Blogs",
         items: [{
-          text: "⚖️ Python Code Complexity Checkers: A Comprehensive Comparison",
+          text: "⚖️ Python Code Complexity Checkers",
           link: "/docs/python-code-complexity-checkers-comparison.md",
         },
         {
-          text: "🔍 Measuring Function Complexity in Python: Tools and Techniques",
+          text: "🔍 Measuring Function Complexity Python",
           link: "/docs/measuring-function-complexity-python.md",
         },
         {
-          text: "🧠 How Much Docstring Is Enough? A Practical Guide for Python Developers",
+          text: "🧠 How Much Docstring is Enough?",
           link: "/docs/how-much-docstring-is-enough.md",
         },
         {
-          text: "📚 Automated Code Documentation: A Decade in Review",
+          text: "📚 Automated Documentation Decade Review",
           link: "/docs/automated-source-code-documentation.md",
         },{
-          text: "🤖 Automate Code Documentation with Penify-CLI",
+          text: "🤖 Automate Documentation With CLI",
           link: "/docs/code-documentation-with-cli.md",
         },
         {
-          text: "📩 Semantic Commit Messages: Elevating Your Code Quality and Collaboration",
+          text: "📩 Semantic Commits Elevate Quality",
           link: "/docs/semantic-commit-messages.md",
         },{
-          text: "✍️ Simplify Git Commits with Penify-CLI's Summary Generator",
+          text: "✍️ Simplify Git Commits Generator",
           link: "/docs/commit-summary-with-cli.md",
         },
         {
-          text: "🐍 Four Common Docstring Formats in Python",
+          text: "🐍 Four Python Docstring Formats",
           link: "/docs/common-docstring-format-in-python.md",
         },{
-          text: "🌱 Penify Genesis",
+          text: "🌱 Penify Genesis Story Here",
           link: "/docs/penify-genesis",
         }]
       },
@@ -106,27 +106,27 @@ export default defineConfig({
         items: [
        
         {
-          text: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud",
+          text: "Amazon Scraps Local Alexa Processing",
           link: "/docs/Amazon-to-Scrap-Local-Alexa-Processing.md",
         },
         {
-          text: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March",
+          text: "Gemma 3 Most Powerful AI",
           link: "/docs/current-strongest-model-that-fits-on-a-single-GPU.md",
         },
         {
-          text: "📚 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing",
+          text: "📚 DeepSeek Extending DuckDB Processing",
           link: "/docs/extending-duck-db-for-distrubuted-data-processing.md",
         },
         {
-          text: "📚 Chain of Draft: Thinking Faster with Less",
+          text: "📚 Chain Draft Thinking Faster",
           link: "/docs/chain-of-draft.md",
         },
         {
-          text: "📜 How to Streamline LLM Applications with LiteLLM Proxy: A Simple Guide",
+          text: "📜 Streamline LLM With LiteLLM",
           link: "/docs/Streamline-LLM-Applications-with-LiteLLM.md",
         },
         {
-          text: "📜 20 Essential Git Command-Line Tricks for Developers",
+          text: "📜 Twenty Essential Git Tricks",
           link: "/docs/command-line-tricks-developer-should-know.md",
         },
         {
@@ -134,11 +134,11 @@ export default defineConfig({
           link: "/docs/run-hyperdrive-using-azure.md",
         },
         {
-          text: "⚖️ AzureML vs HyperDrive",
+          text: "⚖️ AzureML versus HyperDrive Comparison",
           link: "/docs/azureml-hyperdrive.md",
         },
         {
-          text: "🔍 A Comparative Overview of LangChain, Semantic Kernel, AutoGen",
+          text: "🔍 LangChain Semantic Kernel AutoGen",
           link: "/docs/comparative-anlaysis-of-langchain-semantic-kernel-autogen.md",
         },
         ]
