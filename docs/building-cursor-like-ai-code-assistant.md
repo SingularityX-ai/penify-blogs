@@ -1289,6 +1289,12 @@ vscode.commands.registerCommand('aiCodeAssistant.refactorCode', async () => {
 });
 ```
 
+## Penify: Automation-First Approach
+
+While this guide focuses on building an AI code assistant, it's worth mentioning that [Penify](https://penify.dev) is building something similar but with a different philosophy. Instead of just providing assistance, Penify is focused on **automation**—aiming to make code generation and modification workflows 99.9% reliable. This is a challenging journey, but the vision is that in the future, if someone creates a task item in Jira, Penify could automatically provide a ready-to-use code template for that task.
+
+You can learn more about Penify's mission and progress at [penify.ai](https://penify.dev).
+
 ## Conclusion
 
 Building a Cursor-like AI code assistant is an ambitious but achievable project that combines multiple cutting-edge technologies:
@@ -1324,6 +1330,17 @@ As you implement your own AI code assistant, remember that the goal is to enhanc
 By integrating these technologies, you can create an AI-powered coding assistant that truly understands your codebase and helps developers navigate, understand, and improve their code more efficiently.
 
 Would you like to see a working demo or get a GitHub-ready template for this system? Let me know in the comments!
+
+### Further Reading
+
+If you found this article useful, you might also enjoy these related blogs from Penify:
+
+- [How AI is Changing Code Reviews](../how-ai-is-changing-code-reviews.md)
+- [Automating Codebase Refactoring with LLMs](../automating-codebase-refactoring-with-llms.md)
+- [Building Reliable Code Automation Pipelines](../building-reliable-code-automation-pipelines.md)
+- [Penify: Our Journey Towards 99.9% Reliable Code Automation](../penify-journey-reliable-code-automation.md)
+
+For more, visit [Penify Blog](https://penify.ai/blog).
 
 ---
 
