@@ -5,7 +5,7 @@ description: "Explore a decade of progress in automated source code documentatio
 keywords: automated code documentation, source code summarization, deep learning for code, software engineering, natural language processing, code2vec, AST-based models, machine learning in software development, Java documentation, Python documentation, code comment generation, method name prediction, neural networks for code analysis, transformer models in coding, software maintenance, developer productivity, code understanding, AI in software engineering, automatic programming, code2seq
 author: Suman Sauarbh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
-image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
+image: https://www.penify.dev/_next/static/media/suman.1cf25c09.webp
 ---
 
 ![Penify code docs](../public/images/docstring-banner.png)

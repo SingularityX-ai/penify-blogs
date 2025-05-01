@@ -5,7 +5,7 @@ description: "Explore the implications of Amazon's decision to eliminate local A
 keywords: amazon alexa, cloud voice processing, AI privacy concerns, voice assistant security, generative AI, amazon echo, smart home privacy, amazon voice recordings, alexa local processing, smart assistant AI, privacy-first technology, AI-driven voice recognition, echo device limitations, voice data security, cloud-based AI, amazon echo show, amazon prime subscription, AI-powered voice assistants, amazon voice recognition, amazon privacy policy
 author: Suman Sauarbh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
-image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
+image: https://www.penify.dev/_next/static/media/suman.1cf25c09.webp
 ---
 
 ![Penify code docs](../public/images/docstring-banner.png)

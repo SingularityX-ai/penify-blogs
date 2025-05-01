@@ -5,7 +5,7 @@ description: "Discover Google's Gemma 3 AI models, built on Gemini technology. L
 keywords: "Gemma 3, AI model, single GPU AI, multimodal AI, Google AI, Gemini AI, AI benchmarks, Ollama AI, AI chatbot, NLP, machine learning, text generation, deep learning, artificial intelligence"
 author: Suman Sauarbh
 linkedInUrl: https://www.linkedin.com/in/ssumansaurabh/
-image: https://media.licdn.com/dms/image/v2/D5603AQEDru6Q4UkzEg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1681498321113?e=1730332800&v=beta&t=PM0PsCMZs4Ar0TIweuSdqU-P7kuWLm9gmEZ_spGFDsw
+image: https://www.penify.dev/_next/static/media/suman.1cf25c09.webp
 ---
 
 # **Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March**
