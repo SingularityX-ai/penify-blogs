@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "🧩 Building a Cursor-like AI Code Assistant: A Deep Dive"
+    details: "A comprehensive, step-by-step guide to building an intelligent code assistant like Cursor. Learn how to combine LSP, code embeddings, and LLMs to create a truly smart IDE experience for TypeScript and beyond. Includes architecture, code, and deployment tips."
+    link: /docs/building-cursor-like-ai-code-assistant.md
   - title: "⚖️ Python Code Complexity Checkers: A Comprehensive Comparison"
     details: "A detailed comparison of popular Python code complexity checkers including Radon, McCabe, Lizard, Wily, and Flake8. Learn the strengths, weaknesses, and unique features of each tool."
     link: /docs/python-code-complexity-checkers-comparison.md
