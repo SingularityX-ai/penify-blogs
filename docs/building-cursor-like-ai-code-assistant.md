@@ -1331,16 +1331,16 @@ By integrating these technologies, you can create an AI-powered coding assistant
 
 Would you like to see a working demo or get a GitHub-ready template for this system? Let me know in the comments!
 
-### Further Reading
+<!-- ### Further Reading
 
 If you found this article useful, you might also enjoy these related blogs from Penify:
 
 - [How AI is Changing Code Reviews](../how-ai-is-changing-code-reviews.md)
 - [Automating Codebase Refactoring with LLMs](../automating-codebase-refactoring-with-llms.md)
 - [Building Reliable Code Automation Pipelines](../building-reliable-code-automation-pipelines.md)
-- [Penify: Our Journey Towards 99.9% Reliable Code Automation](../penify-journey-reliable-code-automation.md)
+- [Penify: Our Journey Towards 99.9% Reliable Code Automation](../penify-journey-reliable-code-automation.md) -->
 
-For more, visit [Penify Blog](https://penify.ai/blog).
+For more, visit [Penify Blog](https://blogs.penify.dev).
 
 ---
 
