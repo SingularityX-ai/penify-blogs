@@ -1293,7 +1293,7 @@ vscode.commands.registerCommand('aiCodeAssistant.refactorCode', async () => {
 
 While this guide focuses on building an AI code assistant, it's worth mentioning that [Penify](https://penify.dev) is building something similar but with a different philosophy. Instead of just providing assistance, Penify is focused on **automation**—aiming to make code generation and modification workflows 99.9% reliable. This is a challenging journey, but the vision is that in the future, if someone creates a task item in Jira, Penify could automatically provide a ready-to-use code template for that task.
 
-You can learn more about Penify's mission and progress at [penify.ai](https://penify.dev).
+You can learn more about Penify's mission and progress at [penify.dev](https://www.penify.dev).
 
 ## Conclusion
 
