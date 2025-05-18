@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "🚨 NEVER Have to Beg for Code Reviews Again"
+    details: "Discover how PullNotifier, a Slack app, streamlines code reviews by providing structured notifications and reducing Slack spam."
+    link: /docs/never-beg-for-code-reviews-again.md
   - title: "🧩 Building a Cursor-like AI Code Assistant: A Deep Dive"
     details: "A comprehensive, step-by-step guide to building an intelligent code assistant like Cursor. Learn how to combine LSP, code embeddings, and LLMs to create a truly smart IDE experience for TypeScript and beyond. Includes architecture, code, and deployment tips."
     link: /docs/building-cursor-like-ai-code-assistant.md

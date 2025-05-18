@@ -68,6 +68,9 @@ export default defineConfig({
       {
         text: "Penify Blogs",
         items: [{
+          text: "🚨 NEVER Beg for Code Reviews Again",
+          link: "/docs/never-beg-for-code-reviews-again.md",
+        },{
           text: "🧩 Building a Cursor-like AI Code Assistant",
           link: "/docs/building-cursor-like-ai-code-assistant.md",
         },{
