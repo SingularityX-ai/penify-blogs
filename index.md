@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "🤖 Watching AI Agents Eat the World (While We Watch Like It's an Ant Farm)"
+    details: "Explore the fascinating world of AI agents in software development. Learn how analyst, decision, and review agents collaborate to streamline workflows, enhance productivity, and redefine the development process."
+    link: /docs/agents-in-software-development.md
   - title: "🚨 NEVER Have to Beg for Code Reviews Again"
     details: "Discover how PullNotifier, a Slack app, streamlines code reviews by providing structured notifications and reducing Slack spam."
     link: /docs/never-beg-for-code-reviews-again.md

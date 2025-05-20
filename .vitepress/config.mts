@@ -110,7 +110,10 @@ export default defineConfig({
       {
         text: "General",
         items: [
-       
+        {
+          text: "🤖 AI Agents Eat the World",
+          link: "/docs/agents-in-software-development.md",
+        },
         {
           text: "Amazon Scraps Local Alexa Processing",
           link: "/docs/Amazon-to-Scrap-Local-Alexa-Processing.md",
