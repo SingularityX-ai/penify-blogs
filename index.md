@@ -27,7 +27,7 @@ features:
   - title: "Amazon to Scrap Local Alexa Processing: All Voice Commands Moving to the Cloud"
     details: "Explore the implications of Amazon's decision to eliminate local Alexa voice processing, shifting all requests to the cloud. Learn about the privacy concerns, generative AI advancements, and the future of Echo devices."
     link: /docs/Amazon-to-Scrap-Local-Alexa-Processing.md
-  - title: "Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March"
+  - title: "🔥 Gemma 3: The Most Powerful AI Model for Single-GPU Deployment in 2025/March"
     details: "Discover Google's Gemma 3 AI models, built on Gemini technology. Learn about their powerful text and multimodal capabilities, large context window, and how to deploy them on a single GPU. Explore benchmarks, performance comparisons, and use cases."
     link: /docs/current-strongest-model-that-fits-on-a-single-GPU.md
   - title: "🚀 DeepSeek’s Smallpond: Extending DuckDB for Distributed Big Data Processing"
@@ -66,6 +66,9 @@ features:
   - title: 🛠️ Four Common Docstring Formats in Python
     details: Standard Python Docstring according to PEP-8 style guide, including Google, Epytext, rEST, Numpy.
     link: /docs/common-docstring-format-in-python.md
+  - title: 🔐 Secure String Encryption in Python
+    details: "Learn how to implement secure string encryption in Python using PBKDF2, with code examples and performance benchmarks to help you balance security and computational cost."
+    link: /docs/how-to-secure-keys.md
   - title: 🚀 Penify Genesis
     details: Penify is an intelligent GitHub App designed to automate the process of generating and updating documentation for GitHub projects.
     link: /docs/penify-genesis.md

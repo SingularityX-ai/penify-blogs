@@ -65,6 +65,12 @@ export default defineConfig({
       provider: "local",
     },
     sidebar: [
+       {
+        text: "Engineering Blogs",
+        items: [{
+          text: "🔐 Secure String Encryption in Python",
+          link: "/docs/how-to-secure-keys.md",
+        },]},
       {
         text: "Penify Blogs",
         items: [{
@@ -119,7 +125,7 @@ export default defineConfig({
           link: "/docs/Amazon-to-Scrap-Local-Alexa-Processing.md",
         },
         {
-          text: "Gemma 3 Most Powerful AI",
+          text: "🔥 Gemma 3 Most Powerful AI",
           link: "/docs/current-strongest-model-that-fits-on-a-single-GPU.md",
         },
         {
