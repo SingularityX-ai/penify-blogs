@@ -70,6 +70,9 @@ export default defineConfig({
         items: [{
           text: "🔐 Secure String Encryption in Python",
           link: "/docs/how-to-secure-keys.md",
+        },{
+          text: "🔧 Building a JSDoc Parser: From AI Chaos to Open Source",
+          link: "/docs/parsing-js-docstring-in-python.md",
         },]},
       {
         text: "Penify Blogs",

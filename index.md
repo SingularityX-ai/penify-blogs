@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "🔧 Building a JSDoc Parser: From AI Documentation Chaos to Open Source Solution"
+    details: "Chronicles the journey of building a comprehensive JSDoc parser to handle AI-generated documentation inconsistencies. Learn about parsing complex types, handling nested parameters, and creating a robust two-way parser-composer system."
+    link: /docs/parsing-js-docstring-in-python.md
   - title: "🤖 Watching AI Agents Eat the World (While We Watch Like It's an Ant Farm)"
     details: "Explore the fascinating world of AI agents in software development. Learn how analyst, decision, and review agents collaborate to streamline workflows, enhance productivity, and redefine the development process."
     link: /docs/agents-in-software-development.md
