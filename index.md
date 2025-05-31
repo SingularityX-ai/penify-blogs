@@ -6,6 +6,9 @@ hero:
   name: "Penify"
   tagline: Effortlessly generate precise, human like docstrings for GitHub repos with Penify    
 features:
+  - title: "📊 How to Analyze a README File Using Readability Metrics in Python"
+    details: "Learn how to evaluate README files using Python and established readability metrics like Flesch Reading Ease and Gunning Fog Index. Improve your documentation quality with quantitative measurements."
+    link: /docs/analyze-readme-readability.md
   - title: "🔧 Building a JSDoc Parser: From AI Documentation Chaos to Open Source Solution"
     details: "Chronicles the journey of building a comprehensive JSDoc parser to handle AI-generated documentation inconsistencies. Learn about parsing complex types, handling nested parameters, and creating a robust two-way parser-composer system."
     link: /docs/parsing-js-docstring-in-python.md

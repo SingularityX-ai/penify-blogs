@@ -120,6 +120,10 @@ export default defineConfig({
         text: "General",
         items: [
         {
+          text: "📊 Analyze README Files with Readability Metrics",
+          link: "/docs/analyze-readme-readability.md",
+        },
+        {
           text: "🤖 AI Agents Eat the World",
           link: "/docs/agents-in-software-development.md",
         },
