@@ -7,13 +7,18 @@ export default defineConfig({
   title: "Penify",
   titleTemplate: ":title",
   description: "Effortlessly generate precise, human like docstrings for GitHub repos with Penify.",
-  transformHead: ({pageData}) => {
+  transformHead: ({ pageData }) => {
     const head: HeadConfig[] = [];
 
     if (pageData.frontmatter.title) {
       head.push([
         "meta",
-        { property: "og:title", content: pageData.frontmatter.title },
+        { property: "og:title", content: `${pageData.frontmatter.title} | Penify.dev` },
+      ]);
+    } else {
+      head.push([
+        "meta",
+        { property: "og:title", content: "Penify.dev | Automated Documentation Generation" },
       ]);
     }
 
@@ -22,7 +27,17 @@ export default defineConfig({
         "meta",
         { property: "og:description", content: pageData.frontmatter.description },
       ]);
+    } else {
+      head.push([
+        "meta",
+        { property: "og:description", content: "Effortlessly generate precise, human-like docstrings for GitHub repos with Penify." },
+      ]);
     }
+
+    head.push([
+      "meta",
+      { property: "og:url", content: `https://blogs.penify.dev${pageData.relativePath.replace(/\.md$/, '.html')}` },
+    ]);
 
     if (pageData.frontmatter.keywords) {
       head.push([
