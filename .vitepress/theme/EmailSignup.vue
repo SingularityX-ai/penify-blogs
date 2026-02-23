@@ -24,7 +24,6 @@
 
 <script setup>
 import { ref } from 'vue'
-import { supabase } from '../lib/supabaseClient'
 
 const email = ref('')
 const loading = ref(false)
@@ -34,19 +33,26 @@ const messageType = ref('')
 const handleSubmit = async () => {
   loading.value = true
   message.value = ''
-  
-  try {
-    const { error } = await supabase
-      .from('newsletter_subscribers')
-      .insert([{ email: email.value }])
 
-    if (error) throw error
+  try {
+    const response = await fetch('https://api.bareuptime.co/subscriber', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({ email: email.value }),
+    })
+
+    if (!response.ok) {
+      const data = await response.json().catch(() => ({}))
+      throw new Error(data.message || `Request failed with status ${response.status}`)
+    }
 
     message.value = 'Thank you for subscribing!'
     messageType.value = 'success'
     email.value = ''
   } catch (error) {
-    message.value = error.message === 'duplicate key value violates unique constraint "newsletter_subscribers_email_key"'
+    message.value = error.message?.toLowerCase().includes('already')
       ? 'You are already subscribed!'
       : 'Something went wrong. Please try again.'
     messageType.value = 'error'
