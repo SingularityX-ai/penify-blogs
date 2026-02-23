@@ -4,7 +4,7 @@
   "private": true,
   "description": "Snorkel Documentation Site",
   "engines": {
-    "node": "20.x"
+    "node": "22.x"
   },
   "scripts": {
     "build": "vitepress build",
